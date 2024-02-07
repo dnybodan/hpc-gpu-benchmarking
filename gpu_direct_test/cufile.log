@@ -1,0 +1,9 @@
+
+ 25-01-2024 22:35:13:468 [pid=1797933 tid=1797933] ERROR  cufio:3212 invalid devicePtr to cuFileWrite
+ 25-01-2024 23:12:19:290 [pid=1799627 tid=1799627] ERROR  cufio:3212 invalid devicePtr to cuFileWrite
+ 25-01-2024 23:12:59:926 [pid=1799715 tid=1799715] ERROR  cufio:3212 invalid devicePtr to cuFileWrite
+ 25-01-2024 23:13:28:716 [pid=1799836 tid=1799836] ERROR  cufio:3212 invalid devicePtr to cuFileWrite
+ 06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  cufio:1484 cuFileHandleRegister error, invalid file descriptor: -1
+ 06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  cufio:1592 cuFileHandleRegister error: invalid arguments
+ 06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  0:106 cuDeviceGet failed with error 4
+ 06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  0:106 cuDeviceGet failed with error 4
