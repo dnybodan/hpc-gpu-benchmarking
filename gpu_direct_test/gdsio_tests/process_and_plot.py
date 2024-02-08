@@ -23,11 +23,11 @@ def process_and_plot(log_file):
 
     # Plotting Throughput
     plt.figure(1)
-    plt.plot(throughputs)
+    plt.plot([8.59*x for x in throughputs])
     plt.title('Throughput over Runs')
     plt.xlabel('Run (33 GB Write)')
-    plt.ylabel('Throughput (GiB/sec)')
-    plt.savefig('throughput_plot.png')
+    plt.ylabel('Throughput (Gbps)')
+    plt.savefig('throughput_gdsio_plot.png')
 
     # Plotting Latency
     plt.figure(2)

@@ -37,8 +37,8 @@ run_gpu_to_cpu: data_output_non_cufile
 run_posix: data_output_posix
 	./data_output_posix
 
-run_gdsio: gdsio
-	./gdsio_tests/gdsio_test_64M.sh
+run_gdsio:
+	$(shell gdsio_tests/gdsio_test_64M.sh)
 
 plot: $(PYTHON_SCRIPT)
 	$(PYTHON) $(PYTHON_SCRIPT)

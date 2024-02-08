@@ -7,3 +7,19 @@
  06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  cufio:1592 cuFileHandleRegister error: invalid arguments
  06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  0:106 cuDeviceGet failed with error 4
  06-02-2024 15:08:48:814 [pid=428198 tid=428198] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:27:602 [pid=643905 tid=643905] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:27:602 [pid=643905 tid=643905] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:28:901 [pid=643936 tid=643936] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:28:901 [pid=643936 tid=643936] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:30:218 [pid=643957 tid=643957] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:30:218 [pid=643957 tid=643957] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:31:517 [pid=643978 tid=643978] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:31:517 [pid=643978 tid=643978] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:32:846 [pid=643999 tid=643999] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:32:846 [pid=643999 tid=643999] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:34:125 [pid=644020 tid=644020] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:34:125 [pid=644020 tid=644020] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:35:397 [pid=644041 tid=644041] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:35:397 [pid=644041 tid=644041] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:36:679 [pid=644062 tid=644062] ERROR  0:106 cuDeviceGet failed with error 4
+ 08-02-2024 13:36:36:679 [pid=644062 tid=644062] ERROR  0:106 cuDeviceGet failed with error 4
