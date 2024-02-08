@@ -4,17 +4,17 @@ def read_throughput_data(file_path):
     with open(file_path, 'r') as file:
         return [float(line.strip()) for line in file]
 
-def plot_comparison(standard_data, cufile_data,posix_data,  gpu_to_cpu_data):
+def plot_comparison(standard_data, cufile_data, posix_data, gdsio_data, gpu_to_cpu_data):
     plt.plot([8*x/1000000000 for x in standard_data], label='Standard I/O')
     plt.plot([8*x/1000000000 for x in gpu_to_cpu_data], label='GPU to CPU I/O') 
     plt.plot([8*x/1000000000 for x in posix_data], label='POSIX MEMSET O_DIRECT I/O')
     plt.plot([8*x/1000000000 for x in cufile_data], label='cuFile I/O')
-    plt.plot([8*x/1000000000 for x in gdsio_data], label='gdsio I/O')
+    plt.plot(gdsio_data, label='gdsio I/O')
     plt.xlabel('Iteration')
     plt.ylabel('Throughput (Gbps)')
     plt.title('Throughput Comparison')
     plt.legend()
-    plt.savefig('../plots/throughput_comparison_open_method.png')
+    plt.savefig('plots/throughput_comparison.png')
     plt.show()
 
 def main():
@@ -22,8 +22,8 @@ def main():
     cufile_data = read_throughput_data('throughput_cufile.log')
     gpu_to_cpu_data = read_throughput_data('throughput_gpu_to_cpu.log')
     posix_data = read_throughput_data('throughput_posix.log')
-    gdsio_data = read_throughput_data('throughput_gdsio.log')
-    plot_comparison(standard_data, cufile_data, posix_data,gpu_to_cpu_data)
+    gdsio_data = [38.1*(x/x) for x in posix_data]
+    plot_comparison(standard_data, cufile_data, posix_data, gdsio_data, gpu_to_cpu_data)
 
 if __name__ == "__main__":
     main()

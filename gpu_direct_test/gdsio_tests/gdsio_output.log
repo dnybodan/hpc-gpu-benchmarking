@@ -1,100 +1,100 @@
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 29787136/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.433890 GiB/sec, Avg_Latency: 7030.504500 usecs ops: 29089 total_time 6.406840 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27278336/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.428481 GiB/sec, Avg_Latency: 7111.107786 usecs ops: 26639 total_time 5.874395 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27124736/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450967 GiB/sec, Avg_Latency: 7071.707224 usecs ops: 26489 total_time 5.811808 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26852352/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.449059 GiB/sec, Avg_Latency: 7079.490158 usecs ops: 26223 total_time 5.755914 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27094016/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.417836 GiB/sec, Avg_Latency: 7133.787893 usecs ops: 26459 total_time 5.848761 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26717184/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.447083 GiB/sec, Avg_Latency: 7077.144184 usecs ops: 26091 total_time 5.729484 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26971136/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.439838 GiB/sec, Avg_Latency: 7087.579409 usecs ops: 26339 total_time 5.793383 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26860544/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.444851 GiB/sec, Avg_Latency: 7079.216537 usecs ops: 26231 total_time 5.763120 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27098112/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.396450 GiB/sec, Avg_Latency: 7162.531082 usecs ops: 26463 total_time 5.878100 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26300416/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.447825 GiB/sec, Avg_Latency: 7092.897957 usecs ops: 25684 total_time 5.639168 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26406912/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.449655 GiB/sec, Avg_Latency: 7085.103729 usecs ops: 25788 total_time 5.659673 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27065344/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.437570 GiB/sec, Avg_Latency: 7087.251876 usecs ops: 26431 total_time 5.816589 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26931200/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.445871 GiB/sec, Avg_Latency: 7077.257915 usecs ops: 26300 total_time 5.776954 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26537984/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450089 GiB/sec, Avg_Latency: 7076.023970 usecs ops: 25916 total_time 5.687211 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26534912/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.443422 GiB/sec, Avg_Latency: 7082.475104 usecs ops: 25913 total_time 5.695084 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26900480/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.444557 GiB/sec, Avg_Latency: 7080.108735 usecs ops: 26270 total_time 5.772071 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27122688/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.436050 GiB/sec, Avg_Latency: 7089.292165 usecs ops: 26487 total_time 5.830911 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26625024/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.449256 GiB/sec, Avg_Latency: 7077.048517 usecs ops: 26001 total_time 5.706932 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26516480/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450258 GiB/sec, Avg_Latency: 7078.758701 usecs ops: 25895 total_time 5.682386 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26757120/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.448867 GiB/sec, Avg_Latency: 7072.291296 usecs ops: 26130 total_time 5.735747 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27145216/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.432788 GiB/sec, Avg_Latency: 7097.164854 usecs ops: 26509 total_time 5.840048 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26724352/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.436721 GiB/sec, Avg_Latency: 7094.258428 usecs ops: 26098 total_time 5.744406 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26627072/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.431219 GiB/sec, Avg_Latency: 7099.925524 usecs ops: 26003 total_time 5.730602 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26971136/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.449929 GiB/sec, Avg_Latency: 7070.884369 usecs ops: 26339 total_time 5.780245 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27001856/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.446448 GiB/sec, Avg_Latency: 7072.766127 usecs ops: 26369 total_time 5.791359 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27352064/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.437961 GiB/sec, Avg_Latency: 7085.010806 usecs ops: 26711 total_time 5.877690 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26572800/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.448717 GiB/sec, Avg_Latency: 7081.912260 usecs ops: 25950 total_time 5.696428 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26270720/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.449015 GiB/sec, Avg_Latency: 7086.817670 usecs ops: 25655 total_time 5.631294 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26675200/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450730 GiB/sec, Avg_Latency: 7069.251580 usecs ops: 26050 total_time 5.715793 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27098112/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.418049 GiB/sec, Avg_Latency: 7122.044045 usecs ops: 26463 total_time 5.849363 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26563584/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.447882 GiB/sec, Avg_Latency: 7083.309989 usecs ops: 25941 total_time 5.695521 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26172416/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.448235 GiB/sec, Avg_Latency: 7093.810975 usecs ops: 25559 total_time 5.611206 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26916864/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.446057 GiB/sec, Avg_Latency: 7081.198732 usecs ops: 26286 total_time 5.773637 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27053056/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.426832 GiB/sec, Avg_Latency: 7111.302915 usecs ops: 26419 total_time 5.828051 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27280384/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.444672 GiB/sec, Avg_Latency: 7076.501674 usecs ops: 26641 total_time 5.853436 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27546624/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.448864 GiB/sec, Avg_Latency: 7070.139913 usecs ops: 26901 total_time 5.904992 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26858496/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450452 GiB/sec, Avg_Latency: 7067.356321 usecs ops: 26229 total_time 5.755428 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26573824/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.440167 GiB/sec, Avg_Latency: 7098.929363 usecs ops: 25951 total_time 5.707617 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27257856/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.439090 GiB/sec, Avg_Latency: 7086.515124 usecs ops: 26619 total_time 5.855956 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26724352/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.435311 GiB/sec, Avg_Latency: 7099.080591 usecs ops: 26098 total_time 5.746233 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26721280/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.448933 GiB/sec, Avg_Latency: 7073.141690 usecs ops: 26095 total_time 5.727980 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27307008/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.431018 GiB/sec, Avg_Latency: 7103.152664 usecs ops: 26667 total_time 5.877203 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27033600/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.437299 GiB/sec, Avg_Latency: 7086.779329 usecs ops: 26400 total_time 5.810122 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26960896/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.437377 GiB/sec, Avg_Latency: 7090.214039 usecs ops: 26329 total_time 5.794395 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26641408/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450062 GiB/sec, Avg_Latency: 7072.577661 usecs ops: 26017 total_time 5.709410 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26797056/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.426102 GiB/sec, Avg_Latency: 7116.254566 usecs ops: 26169 total_time 5.773853 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26880000/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.450546 GiB/sec, Avg_Latency: 7068.023072 usecs ops: 26250 total_time 5.759915 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 27156480/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.437263 GiB/sec, Avg_Latency: 7085.792500 usecs ops: 26520 total_time 5.836579 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26008576/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.446460 GiB/sec, Avg_Latency: 7097.664348 usecs ops: 25399 total_time 5.578305 secs
 
-cannot open directory, invalid path :/mnt/beegfs/gdsio,error :No such file or directory
+IoType: WRITE XferType: GPUD_ASYNC Threads: 32 DataSetSize: 26877952/33554432(KiB) IOSize: 1024(KiB) Throughput: 4.434537 GiB/sec, Avg_Latency: 7096.564466 usecs ops: 26248 total_time 5.780268 secs
 
