@@ -1,0 +1,31 @@
+- name: Run script, manage logs, and plot results on the local host
+  hosts: all
+  gather_facts: False
+  tasks:
+    - name: Copy the executable to remote hosts
+      copy:
+        src: ../gpu_direct_test/data_output_standard
+        dest: /home/dnybo/data_output_standard
+        mode: '0777'
+
+    - name: Execute the precompiled binary
+      command: /home/dnybo/data_output_standard
+      args:
+        chdir: /home/dnybo/
+        
+    - name: Fetch the generated log file to a local directory, with hostname in filename
+      fetch:
+        src: /home/dnybo/throughput_standard.log
+        dest: "../gpu_direct_test/remote_logs/{{ inventory_hostname }}_throughput_standard.log"
+        flat: yes
+
+    - name: Remove the executable from remote hosts
+      file:
+        path: /home/dnybo/data_output_standard
+        state: absent
+
+  post_tasks:
+    - name: Plot throughput results
+      delegate_to: localhost
+      command: ../gpu_direct_test/scripts/plot_remote_throughput.py
+

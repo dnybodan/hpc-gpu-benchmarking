@@ -11,7 +11,7 @@ PYTHON_SCRIPT=scripts/compare_throughput.py
 GPU_TO_CPU_SOURCE=gpu/gpu_output_non_cufile.cu
 POSIX =gpu/posix_fd_output.cu
 
-all: run_standard run_cuda run_gpu_to_cpu run_posix plot
+all: run_standard run_cuda run_gpu_to_cpu run_posix run_gdsio plot
 
 data_output_standard: $(C_SOURCE)
 	$(CC) -o $@ $^ $(CFLAGS)
@@ -37,10 +37,13 @@ run_gpu_to_cpu: data_output_non_cufile
 run_posix: data_output_posix
 	./data_output_posix
 
+run_gdsio: gdsio
+	./gdsio_tests/gdsio_test_64M.sh
+
 plot: $(PYTHON_SCRIPT)
 	$(PYTHON) $(PYTHON_SCRIPT)
 
 clean:
-	rm -f data_output_standard data_output_cufile data_output_non_cufile data_output_posix throughput_posix.log throughput_standard.log throughput_cufile.log throughput_gpu_to_cpu.log throughput_comparison.png
+	rm -f data_output_standard data_output_cufile data_output_non_cufile data_output_posix throughput_posix.log throughput_standard.log throughput_gdsio.log throughput_cufile.log throughput_gpu_to_cpu.log throughput_comparison.png
 
 .PHONY: all run_standard run_cuda run_gpu_to_cpu run_posix plot clean
