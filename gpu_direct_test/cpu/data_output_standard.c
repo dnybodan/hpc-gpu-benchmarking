@@ -31,7 +31,7 @@ int main() {
     }
 
     double max_throughput = 0;
-    for (int i = 0; i < 100; ++i) {
+    for (int i = 0; i < 1000; ++i) {
         long long start_time = current_time_microseconds();
 
         ssize_t written = write(fd, data, BUFFER_SIZE);

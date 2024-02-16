@@ -15,11 +15,12 @@ def plot_comparison(data):
     plt.figure(figsize=(10, 6))
     for hostname, throughput in data.items():
         plt.plot([8*x/1000000000 for x in throughput], label=f'{hostname} Standard I/O')
+    plt.grid()
     plt.xlabel('Iteration')
     plt.ylabel('Throughput (Gbps)')
     plt.title('Throughput Comparison')
     plt.legend()
-    plt.savefig('../plots/remote_hosts_throughput_comparison_standard.png')
+    plt.savefig('../plots/18_25_remote_hosts_throughput_comparison_standard.png')
     # plt.show()
 
 def main():
