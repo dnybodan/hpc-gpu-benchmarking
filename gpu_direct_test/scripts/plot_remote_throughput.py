@@ -20,7 +20,7 @@ def plot_comparison(data):
     plt.ylabel('Throughput (Gbps)')
     plt.title('Throughput Comparison')
     plt.legend()
-    plt.savefig('../plots/18_25_remote_hosts_throughput_comparison_standard.png')
+    plt.savefig('../plots/1_25_remote_hosts_throughput_comparison_standard.png')
     # plt.show()
 
 def main():

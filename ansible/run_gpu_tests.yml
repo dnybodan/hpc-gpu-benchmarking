@@ -10,13 +10,30 @@
 
     - name: Execute the precompiled binary
       command: /data_output_standard
+      async: 600
+      poll: 0
       args:
         chdir: /
-        
-    - name: Fetch the generated log file to a local directory, with hostname in filename
+      register: my_async_job
+
+    - name: Wait for execution complete
+      ansible.builtin.async_status:
+        jid: "{{ my_async_job.ansible_job_id}}"    
+      register: job_result
+      until: job_result.finished
+      retries: 60
+      delay: 10 # check every 10 seconds
+
+    - name: Fetch the generated log file to a local directory, with hostname in filename      
       fetch:
         src: /throughput_standard.log
         dest: "../gpu_direct_test/remote_logs/{{ inventory_hostname }}_throughput_standard.log"
+        flat: yes
+
+    - name: Fetch generated average throughput log file
+      fetch:
+        src: /average_throughput_standard.log
+        dest: "../gpu_direct_test/remote_logs/{{ inventory_hostname  }}_average_throughput_standard.log"
         flat: yes
 
     - name: Remove the executable from remote hosts
@@ -29,8 +46,7 @@
         path: /throughput_standard.log
         state: absent
 
-  post_tasks:
-    - name: Plot throughput results
-      delegate_to: localhost
-      command: ../gpu_direct_test/scripts/plot_remote_throughput.py
-
+    - name: Remove average throughput log from remote hosts
+      file:
+        path: /average_throughpu_standard.log
+        state: absent
