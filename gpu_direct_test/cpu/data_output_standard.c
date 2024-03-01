@@ -5,7 +5,7 @@
 #include <sys/time.h>
 
 #define BUFFER_SIZE (64 * 1024 * 1024) // 64 MB
-#define NUM_ITERATIONS 100ll
+#define NUM_ITERATIONS 10000ll
 
 long long current_time_microseconds() {
     struct timeval te; 
